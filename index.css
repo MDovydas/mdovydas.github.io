@@ -1,0 +1,182 @@
+html {
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    background: transparent;
+    color: whitesmoke;
+    top: 0;
+    font-size: xxx-large;
+
+}
+
+body {
+    padding-top: 0;
+}
+
+.name {
+    font-family: Copperplate, fantasy;
+    position: absolute;
+    left: 0;
+    font-size: xxx-large;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.headerlinks {
+    position: absolute;
+    right: 0;
+    font-size: xxx-large;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a:link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:active {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#section1 {
+    background-color: #6495ED;
+    font-size: 3rem;
+    font-family: "Century Gothic", serif;
+}
+
+#section2 {
+    background-color: darkcyan;
+    text-align: right;
+}
+
+#section3 {
+    background-color: lightcoral;
+    text-align: left;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+section:focus {
+    display: block
+}
+
+p {
+    font-size: 2.5rem;
+    font-family: "Century Gothic", serif;
+}
+
+table {
+    text-align: left;
+}
+
+#table {
+    font-size: 1.9rem;
+}
+
+ul {
+    font-size: 1.5rem;
+    color: lightcoral;
+}
+
+#thedot:hover {
+    cursor: no-drop;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+}
+
+#firsthalf {
+    max-width: 50%;
+}
+
+#hiddenDuck {
+    max-width: 50%;
+}
+
+#section4 {
+    background-color: #808080;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#message {
+    height: 6rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 650px) {
+    .name {
+        display: none;
+    }
+
+    .headerlinks {
+        position: fixed;
+        bottom: 0;
+    }
+
+    .body {
+        font-size: medium
+    }
+
+    #section1 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    #table {
+        font-size: 0.7rem;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    #section2 {
+        text-align: center;
+    }
+
+    #hiddenDuck {
+        display: none;
+    }
+}
